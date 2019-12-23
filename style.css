@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.ButtonRow {
+  text-align: center;
+}
+
+.Page {
+  position: fixed!important;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.PageHeader {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.PaginationText {
+  padding-top: 20px;
+}
+
+.ButtonBlack.btn,
+.ButtonBlack.btn:hover,
+.ButtonBlack.btn:focus,
+.ButtonBlack.btn:disabled,
+.ButtonBlack.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: black;
+  border-color: black;
+}
+
+/** Intro Page */
+.IntroPageTopContainer {
+  height: 70%;
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.IntroPageLeftContainer {
+  width: 60%;
+  padding-top: 160px;
+  padding-left: 120px;
+  padding-right: 100px;
+}
+
+.IntroPageRightContainer {
+  width: 40%;
+}
+
+.IntroPageImagePlaceHolder {
+  width: 250px;
+  height: 250px;
+  margin-top: 120px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.IntroPageIntro {
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+}
+
+.IntroPageSubtitle {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.IntroPageGalleryContainer {
+  overflow-x: auto;
+  display: -webkit-inline-box;
+  width: 100%;
+}
+
+.StartButton {
+  width: 200px;
+  margin-top: 60px;
+}
+
+.IntroPageGalleryCard {
+  height: 150px;
+  width: 200px;
+  background-color: red;
+  z-index: 2;
+  margin-left: 30px;
+}
+
+.IntroPageGalleryCard.First {
+  margin-left: -60px;
+}
+
+.IntroPageFooter {
+  background-color: black;
+  height: 20%;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.ColorCardsContainer {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.ColorCard {
+  display: inline-block;
+  padding: 30px;
+  padding-right: 40px;
+}
+
+.ColorCard.selected {
+  background-color: #cccccc;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.ColorCircleContainer {
+  display: flex;
+}
+
+.ColorCircle {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: -10px;
+}
+
+.FaceCardContainer {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+}
+
+.FacePropertyCard {
+  box-shadow: 3px 3px 6px 0.2rem #ccc;
+}

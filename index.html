@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="p5.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/carousel_controll.js"></script>
+  <script src="js/color_selector.js"></script>
+  <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div class="carousel-inner">
+      <!--  Intro Page -->
+      <div class="carousel-item Page active">
+        <div class="IntroPageTopContainer">
+          <div class="IntroPageLeftContainer">
+            <div class="IntroPageIntro">
+              Making Your Special <br> <b>LOGO</b> with traits of character
+            </div>
+            <div class="IntroPageSubtitle">
+              A logo, abbrevation of logotype, from Greek: Logoc, "words" is a graphic mark,
+              emblem or a symbol commonly used by commercial something I can't read
+            </div>
+            <button type="button" class="StartButton ButtonBlack btn btn-primary" onclick="nextCarousel();">
+              START
+            </button>
+          </div>
+          <div class="IntroPageRightContainer">
+            <div class="IntroPageImagePlaceHolder"></div>
+          </div>
+        </div>
+        <div class="IntroPageFooter"></div>
+        <div class="IntroPageGalleryContainer">
+          <div class="IntroPageGalleryCard First"></div>
+          <div class="IntroPageGalleryCard"></div>
+          <div class="IntroPageGalleryCard"></div>
+          <div class="IntroPageGalleryCard"></div>
+          <div class="IntroPageGalleryCard"></div>
+          <div class="IntroPageGalleryCard"></div>
+          <div class="IntroPageGalleryCard"></div>
+        </div>
+      </div>
+      <!-- Color setting --> 
+      <div class="carousel-item Page">
+        <div class="PageHeader">
+          <div class="PaginationText">
+            Step 1/3
+          </div>
+        </div>
+        <div id="colorContainer" class="ColorCardsContainer">
+        </div>
+        <div class="ButtonRow">
+          <button type="button" class="ButtonBlack StartButton btn btn-primary" onclick="nextCarousel();">
+            NEXT >
+          </button>
+        </div>
+      </div>
+      <!-- Face settings -->
+      <div class="carousel-item Page">
+        <div class="PageHeader">
+          <div class="PaginationText">
+            Step 3/3
+          </div>
+        </div>
+        <div class="FaceCardContainer">
+          <div class="card FacePropertyCard" style="width: 18rem;">
+            <div class="PlaceHolder"></div>
+            <div class="card-body">
+              <h5 class="card-title">How does your eye looks</h5>
+              <input type="range">
+            </div>
+          </div>
+        </div>
+          <div class="ButtonRow">   
+            <button type="button" class="ButtonBlack StartButton btn btn-primary" onclick="nextCarousel(); redraw();">
+              DONE >
+            </button>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <div id="sketch-holder">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
