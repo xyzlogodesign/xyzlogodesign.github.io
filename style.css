@@ -144,6 +144,22 @@ canvas {
   margin: auto;
 }
 
+.BackgroundSlidersContainer {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.BackgroundSliderContainer {
+  flex: auto;
+}
+
+.BackgroundSlider {
+  height: 300px;
+  -webkit-appearance: slider-vertical;
+}
+
 .FacePropertyCard {
   box-shadow: 3px 3px 6px 0.2rem #ccc;
 }

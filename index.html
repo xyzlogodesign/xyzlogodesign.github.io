@@ -17,10 +17,11 @@
   <script src="js/bootstrap.js"></script>
   <script src="js/carousel_controll.js"></script>
   <script src="js/color_selector.js"></script>
+  <script src="js/sliders.js"></script>
   <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <div class="carousel-inner">
       <!--  Intro Page -->
-      <div class="carousel-item Page active">
+      <div class="carousel-item Page">
         <div class="IntroPageTopContainer">
           <div class="IntroPageLeftContainer">
             <div class="IntroPageIntro">
@@ -64,6 +65,71 @@
           </button>
         </div>
       </div>
+      <!-- Background settings -->
+      <div class="carousel-item Page active">
+        <div class="PageHeader">
+          <div class="PaginationText">
+            Step 2/3
+          </div>
+        </div>
+        <div class="BackgroundSlidersContainer">
+          <div class="BackgroundSliderContainer">
+            <div>
+              High
+            </div>
+            <input orient="vertical" class="BackgroundSlider" id="scatterSlider" 
+              min="0" max="30" type="range">
+            <div>
+              Low
+            </div>
+          </div>
+          <div class="BackgroundSliderContainer">
+            <div>
+              High
+            </div>
+            <input orient="vertical" class="BackgroundSlider" id="sizeSlider" 
+              min="0" max="30" type="range">
+            <div>
+              Low
+            </div>
+          </div>
+          <div class="BackgroundSliderContainer">
+            <div>
+              High
+            </div>
+            <input orient="vertical" class="BackgroundSlider" id="spaceSlider" 
+              min="0" max="100" type="range">
+            <div>
+              Low
+            </div>
+          </div>
+          <div class="BackgroundSliderContainer">
+            <div>
+              High
+            </div>
+            <input orient="vertical" class="BackgroundSlider" id="spaceSlider" 
+              min="0" max="100" type="range">
+            <div>
+              Low
+            </div>
+          </div>
+          <div class="BackgroundSliderContainer">
+            <div>
+              High
+            </div>
+            <input orient="vertical" class="BackgroundSlider" id="spaceSlider" 
+              min="0" max="100" type="range">
+            <div>
+              Low
+            </div>
+          </div>
+        </div>
+        <div class="ButtonRow">   
+          <button type="button" class="ButtonBlack StartButton btn btn-primary" onclick="nextCarousel();">
+            NEXT >
+          </button>
+        </div>
+      </div>
       <!-- Face settings -->
       <div class="carousel-item Page">
         <div class="PageHeader">
@@ -80,11 +146,11 @@
             </div>
           </div>
         </div>
-          <div class="ButtonRow">   
-            <button type="button" class="ButtonBlack StartButton btn btn-primary" onclick="nextCarousel(); redraw();">
-              DONE >
-            </button>
-          </div>
+        <div class="ButtonRow">   
+          <button type="button" class="ButtonBlack StartButton btn btn-primary" onclick="nextCarousel(); redraw();">
+            DONE >
+          </button>
+        </div>
       </div>
       <div class="carousel-item">
         <div id="sketch-holder">
@@ -93,8 +159,5 @@
       </div>
     </div>
   </div>
-
-
 </body>
-
 </html>
