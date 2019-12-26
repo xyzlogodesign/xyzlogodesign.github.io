@@ -16,7 +16,7 @@ let probchart = [50, 50, 50, 50]; // square, circle, triangle, empty
 const SQRT_3 = Math.sqrt(3);
 
 function setup() {
-  const canvas = createCanvas(800, 800);
+  const canvas = createCanvas(450, 450);
   canvas.parent('sketch-holder');
   // setupSlider(0, 30, 15, 550, 20, "scatter", scatterSliderFunc);
   // setupSlider(0, 100, 50, 550, 50, "space", emptyFunc);

@@ -153,6 +153,7 @@ canvas {
 
 .BackgroundSliderContainer {
   flex: auto;
+  padding-top: 60px;
 }
 
 .BackgroundSlider {
@@ -162,4 +163,20 @@ canvas {
 
 .FacePropertyCard {
   box-shadow: 3px 3px 6px 0.2rem #ccc;
+}
+
+.SketchHolderContainer {
+  padding-top: 100px;
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.SketchHolderLeft {
+  width: 60%;
+}
+
+.SketchHolder {
+  width:  450px;
+  height: 450px;
 }
