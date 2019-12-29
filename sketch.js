@@ -200,8 +200,7 @@ function getRandomRange(min, max) {
 }
 
 function face(d,e,f){
-  
-  translate(-40,-30);
+
   //eye
   // noFill();
   // stroke(255);
@@ -209,7 +208,7 @@ function face(d,e,f){
   // for (x = d; x>0; x -= 20){
   // ellipse(width/2,width/2,x,x);
   // }
-  let width = 340;
+  let width = 300;
   let startx = width/2-(d/2)*tan(PI/3);
   let starty = width/2;
   let endx = width/2+(d/2)*tan(PI/3);
@@ -238,11 +237,7 @@ endShape();
   // endShape();  
   
   
-  line(startx,starty,endx+(d/2)*tan(PI/3),endy);
-  for (i = 1; i< ((d/2)*tan(PI/3)/20) ;i++){
-   line(endx+i*20, endy, endx+i*20, endy+d*0.2);
-    
-  }
+  line(startx,starty,endx,endy);
   
 
   push();

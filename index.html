@@ -21,18 +21,18 @@
   <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <div class="carousel-inner">
       <!--  Intro Page -->
-      <div class="carousel-item Page">
+      <div class="carousel-item Page active">
         <div class="IntroPageTopContainer">
           <div class="IntroPageLeftContainer">
-            <div class="IntroPageIntro">
-              Making Your Special <br> <b>LOGO</b> with traits of character
+            <div class="IntroPageIntro"><font face="futura, sans-serif" >
+              Making Your Special <b>LOGO</b> <br> with traits of character</font>
             </div>
-            <div class="IntroPageSubtitle">
+            <div class="IntroPageSubtitle"><font face="futura, sans-serif" >
               A logo, abbrevation of logotype, from Greek: Logoc, "words" is a graphic mark,
-              emblem or a symbol commonly used by commercial something I can't read
+              emblem or a symbol commonly used by commercial something I can't read</font>
             </div>
             <button type="button" class="StartButton ButtonBlack btn btn-primary" onclick="nextCarousel();">
-              START
+              <font face="futura, sans-serif" >START</font>
             </button>
           </div>
           <div class="IntroPageRightContainer">
@@ -54,94 +54,99 @@
       <div class="carousel-item Page">
         <div class="PageHeader">
           <div class="PaginationText">
-            Step 1/3
+            <font face="futura, sans-serif" >Step 1/3</font>
           </div>
         </div>
         <div id="colorContainer" class="ColorCardsContainer">
         </div>
         <div class="ButtonRow">
           <button type="button" class="ButtonBlack StartButton btn btn-primary" onclick="nextCarousel();">
-            NEXT >
+            <font face="futura, sans-serif" >NEXT ></font>
           </button>
         </div>
       </div>
       <!-- Background settings -->
-      <div class="carousel-item Page active">
+      <div class="carousel-item Page">
         <div class="PageHeader">
           <div class="PaginationText">
-            Step 2/3
+            <font face="futura, sans-serif" >Step 2/3</font>
           </div>
         </div>
         <div class="BackgroundSlidersContainer">
           <div class="BackgroundSliderContainer">
             <div>
-              Param 1
-            </div>
-            <div>
-              High
+              <font face="futura, sans-serif" >talkative</font>
             </div>
             <input orient="vertical" class="BackgroundSlider" id="scatterSlider" 
               min="0" max="30" type="range">
             <div>
-              Low
+              <font face="futura, sans-serif" >speechless</font>
             </div>
           </div>
           <div class="BackgroundSliderContainer">
-            <div class="SliderHeader">
-              Param 2
-            </div>
             <div class="SliderDescription">
-              High
+              <font face="futura, sans-serif" >generous</font>
             </div>
             <input orient="vertical" class="BackgroundSlider" id="sizeSlider" 
               min="0" max="30" type="range">
             <div class="SliderDescription">
-              Low
+              <font face="futura, sans-serif" >thrifty</font>
             </div>
           </div>
           <div class="BackgroundSliderContainer">
-            <div class="SliderHeader">
-              Param 3
-            </div>
             <div class="SliderDescription">
-              High
+              <font face="futura, sans-serif" >carefree</font>
             </div>
             <input orient="vertical" class="BackgroundSlider" id="spaceSlider" 
               min="0" max="100" type="range">
             <div class="SliderDescription">
-              Low
+              <font face="futura, sans-serif" >stressed</font>
             </div>
           </div>
           <div class="BackgroundSliderContainer">
-            <div class="SliderHeader">
-              Param 4
-            </div>
             <div class="SliderDescription">
-              High
+              <font face="futura, sans-serif" >capricious</font>
             </div>
-            <input orient="vertical" class="BackgroundSlider" id="spaceSlider" 
-              min="0" max="100" type="range">
+            <input orient="vertical" class="BackgroundSlider" id="variationSlider" 
+              min="0" max="40" type="range">
               <div class="SliderDescription">
-                Low
+                <font face="futura, sans-serif" >predictable</font>
             </div>
           </div>
           <div class="BackgroundSliderContainer">
-            <div class="SliderHeader">
-              Param 5
-            </div>
             <div class="SliderDescription">
-              High
+              <font face="futura, sans-serif" >organized</font>
             </div>
-            <input orient="vertical" class="BackgroundSlider" id="spaceSlider" 
+            <input orient="vertical" class="BackgroundSlider" id="squareSlider" 
               min="0" max="100" type="range">
             <div class="SliderDescription">
-              Low
+              <font face="futura, sans-serif" >disordered</font>
+            </div>
+          </div>
+          <div class="BackgroundSliderContainer">
+            <div>
+              <font face="futura, sans-serif" >progressive</font>
+            </div>
+            <input orient="vertical" class="BackgroundSlider" id="circleSlider" 
+              min="0" max="100" type="range">
+            <div>
+              <font face="futura, sans-serif" >conservative</font>
+            </div>
+          </div>
+          <div class="BackgroundSliderContainer">
+            <div>
+              <font face="futura, sans-serif" >reserved</font>
+            </div>
+            <input orient="vertical" class="BackgroundSlider" id="triangleSlider" 
+              min="0" max="100" type="range">
+            <div>
+              <font face="futura, sans-serif" >agreeable</font>
             </div>
           </div>
         </div>
         <div class="ButtonRow">   
           <button type="button" class="ButtonBlack StartButton btn btn-primary" onclick="nextCarousel();">
-            NEXT >
+            <font face="futura, sans-serif" >NEXT ></font>
           </button>
         </div>
       </div>
@@ -149,33 +154,50 @@
       <div class="carousel-item Page">
         <div class="PageHeader">
           <div class="PaginationText">
-            Step 3/3
+            <font face="futura, sans-serif" >Step 3/3</font>
           </div>
         </div>
         <div class="FaceCardContainer">
           <div class="card FacePropertyCard" style="width: 18rem;">
             <div class="PlaceHolder"></div>
             <div class="card-body">
-              <h5 class="card-title">How does your eye looks</h5>
-              <input type="range">
+              <h5 class="card-title"><font face="futura, sans-serif" >How do your eyes look?</font></h5>
+              <input id="eyeSlider" min="100" max="180" type="range">
+            </div>
+          </div>
+          <div class="card FacePropertyCard" style="width: 18rem;">
+            <div class="PlaceHolder"></div>
+            <div class="card-body">
+              <h5 class="card-title"><font face="futura, sans-serif" >How does your nose look?</font></h5>
+              <input id="noseSlider" min="1" max="10" type="range">
+            </div>
+          </div>
+          <div class="card FacePropertyCard" style="width: 18rem;">
+            <div class="PlaceHolder"></div>
+            <div class="card-body">
+              <h5 class="card-title"><font face="futura, sans-serif" >How does your mouth look?</font></h5>
+              <input id="mouthSlider" min="1" max="9" type="range">
             </div>
           </div>
         </div>
         <div class="ButtonRow">   
           <button type="button" class="ButtonBlack StartButton btn btn-primary" onclick="nextCarousel(); redraw();">
-            DONE >
+            <font face="futura, sans-serif" >DONE ></font>
           </button>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- Final settings -->
+      <div class="carousel-item Page">
         <div class="SketchHolderContainer">
           <div class="SketchHodlerLeft">
             <div id="sketch-holder" class="SketchHolder">
-              
+        
             </div>
           </div>
           <div class="SketchHolderRight">
-
+            <div class="FinalPageIntro">
+              <font face="futura, sans-serif" >Your Special <br> <b>LOGO</b> is ready!</font>
+            </div>
           </div>
         </div>
       </div>
