@@ -49,14 +49,14 @@ canvas {
 }
 
 .IntroPageLeftContainer {
-  width: 60%;
-  padding-top: 160px;
-  padding-left: 120px;
+  width: 50%;
+  padding-top: 250px;
+  padding-left: 10px;
   padding-right: 100px;
 }
 
 .IntroPageRightContainer {
-  width: 40%;
+  width: 50%;
 }
 
 .IntroPageImagePlaceHolder {
@@ -195,7 +195,7 @@ canvas {
   font-size: 24px;
   line-height: 35px;
   letter-spacing: 0.05em;
-  margin-left: 50px;
-  padding-top: 100px;
+  margin-left: 60px;
+  padding-top: 150px;
 }
 

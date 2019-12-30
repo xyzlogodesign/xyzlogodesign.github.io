@@ -36,10 +36,11 @@
             </button>
           </div>
           <div class="IntroPageRightContainer">
+            <img src="people.jpg" >
             <div class="IntroPageImagePlaceHolder"></div>
           </div>
         </div>
-        <div class="IntroPageFooter"></div>
+        <!-- <div class="IntroPageFooter"></div>
         <div class="IntroPageGalleryContainer">
           <div class="IntroPageGalleryCard First"></div>
           <div class="IntroPageGalleryCard"></div>
@@ -48,7 +49,7 @@
           <div class="IntroPageGalleryCard"></div>
           <div class="IntroPageGalleryCard"></div>
           <div class="IntroPageGalleryCard"></div>
-        </div>
+        </div> -->
       </div>
       <!-- Color setting --> 
       <div class="carousel-item Page">
@@ -161,21 +162,27 @@
           <div class="card FacePropertyCard" style="width: 18rem;">
             <div class="PlaceHolder"></div>
             <div class="card-body">
-              <h5 class="card-title"><font face="futura, sans-serif" >How do your eyes look?</font></h5>
+              <h5 class="card-title"><font face="futura, sans-serif">
+              <img src="眼睛.svg" height="100" width="100" onerror="this.onerror=null; this.src='image.png'">
+              <br>How do your eyes look</font></h5>
               <input id="eyeSlider" min="100" max="180" type="range">
             </div>
           </div>
           <div class="card FacePropertyCard" style="width: 18rem;">
             <div class="PlaceHolder"></div>
             <div class="card-body">
-              <h5 class="card-title"><font face="futura, sans-serif" >How does your nose look?</font></h5>
+              <h5 class="card-title"><font face="futura, sans-serif" >
+                <img src="鼻.svg" height="100" width="100" onerror="this.onerror=null; this.src='image.png'">
+                <br>How does your nose look</font></h5>
               <input id="noseSlider" min="1" max="10" type="range">
             </div>
           </div>
           <div class="card FacePropertyCard" style="width: 18rem;">
             <div class="PlaceHolder"></div>
             <div class="card-body">
-              <h5 class="card-title"><font face="futura, sans-serif" >How does your mouth look?</font></h5>
+              <h5 class="card-title"><font face="futura, sans-serif" >
+                <img src="嘴唇.svg" height="100" width="100" onerror="this.onerror=null; this.src='image.png'">
+                <br>How does your mouth look</font></h5>
               <input id="mouthSlider" min="1" max="9" type="range">
             </div>
           </div>
@@ -188,15 +195,20 @@
       </div>
       <!-- Final settings -->
       <div class="carousel-item Page">
+        <div class="IntroPageFooter"></div>
         <div class="SketchHolderContainer">
           <div class="SketchHodlerLeft">
             <div id="sketch-holder" class="SketchHolder">
-        
             </div>
           </div>
           <div class="SketchHolderRight">
             <div class="FinalPageIntro">
-              <font face="futura, sans-serif" >Your Special <br> <b>LOGO</b> is ready!</font>
+              <font face="futura, sans-serif" >Your Special <b>LOGO</b> is ready!</font>
+            </div>
+            <div class="ButtonRow">   
+              <button type="button" class="ButtonBlack StartButton btn btn-primary" 
+              onclick="history.back()"><font face="futura, sans-serif" >TRY AGAIN ></font>
+              </button>
             </div>
           </div>
         </div>
