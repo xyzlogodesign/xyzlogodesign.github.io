@@ -148,7 +148,7 @@ canvas {
 }
 
 .BackgroundSlidersContainer {
-  max-width: 1000px;
+  max-width: 100%;
   display: flex;
   margin-left: 200px;
   margin-right: 200px;
