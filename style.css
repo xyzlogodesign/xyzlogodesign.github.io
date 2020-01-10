@@ -68,13 +68,13 @@ canvas {
 }
 
 .IntroPageIntro {
-  font-size: 24px;
-  line-height: 35px;
+  font-size: 36px;
+  line-height: 44px;
   letter-spacing: 0.05em;
 }
 
 .IntroPageSubtitle {
-  font-size: 12px;
+  font-size: 14px;
   padding-top: 10px;
 }
 
